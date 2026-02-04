@@ -1,0 +1,294 @@
+Semana 1 — Fundamentos (sin backend todavía)
+Día 1 — Internet sin magia
+
+Objetivo: entender qué pasa cuando entrás a una web.
+
+Qué es cliente y servidor
+
+Qué es HTTP
+
+Qué es request y response
+
+Qué es un status code (200, 404, 500)
+
+Resultado del día:
+👉 Podés explicar con palabras cómo viaja una petición.
+
+Día 2 — JSON y APIs
+
+Objetivo: entender cómo se mandan datos.
+
+Qué es una API
+
+Qué es REST
+
+Qué es JSON
+
+Diferencia entre GET y POST
+
+Resultado:
+👉 Entendés qué datos entran y salen de una API.
+
+Día 3 — Python básico (lo justo)
+
+Objetivo: no pelearte con el lenguaje.
+
+Variables
+
+Condicionales
+
+Funciones
+
+Diccionarios y listas
+
+Resultado:
+👉 Leés código Python sin miedo.
+
+Día 4 — Entorno y proyecto
+
+Objetivo: entender dónde vive el proyecto.
+
+Qué es un entorno virtual
+
+Para qué sirve
+
+Qué es un proyecto backend
+
+Resultado:
+👉 Sabés qué archivos existen y para qué.
+
+Día 5 — Flask: el servidor
+
+Objetivo: levantar un servidor.
+
+Qué es Flask
+
+Qué hace
+
+Qué es una ruta
+
+Qué es una respuesta
+
+Resultado:
+👉 Entendés cómo una URL ejecuta código.
+
+Día 6 — Requests y Postman
+
+Objetivo: hablar con tu API.
+
+Qué es Postman
+
+Cómo hacer GET y POST
+
+Ver respuestas y status codes
+
+Resultado:
+👉 Probás la API sin frontend.
+
+Día 7 — Repaso real
+
+Objetivo: consolidar.
+
+Reexplicar todo con tus palabras
+
+Dibujar el flujo cliente → servidor → respuesta
+
+Resultado:
+👉 Si podés explicarlo, lo entendiste.
+
+Semana 2 — Datos y usuarios
+Día 8 — Base de datos (conceptos)
+
+Objetivo: entender qué guarda el backend.
+
+Qué es una base de datos
+
+Qué es una tabla
+
+Qué es un registro
+
+Qué es una relación
+
+Resultado:
+👉 Sabés por qué no se guardan datos en variables.
+
+Día 9 — Modelado de datos
+
+Objetivo: pensar antes de guardar.
+
+Qué datos tiene un usuario
+
+Qué datos tiene la entidad del CRUD
+
+Relaciones básicas
+
+Resultado:
+👉 Diseño lógico antes de escribir código.
+
+Día 10 — Persistencia
+
+Objetivo: entender cómo el código habla con la DB.
+
+Insertar
+
+Leer
+
+Actualizar
+
+Borrar
+
+Resultado:
+👉 Entendés CRUD en serio.
+
+Día 11 — Registro de usuarios
+
+Objetivo: flujo completo.
+
+Entrada de datos
+
+Validaciones
+
+Guardado seguro
+
+Resultado:
+👉 Usuario creado correctamente.
+
+Día 12 — Login
+
+Objetivo: autenticación.
+
+Comparar credenciales
+
+Qué pasa si falla
+
+Qué pasa si funciona
+
+Resultado:
+👉 Usuario autenticado.
+
+Día 13 — Seguridad básica
+
+Objetivo: no cometer pecados capitales.
+
+Por qué no guardar contraseñas
+
+Qué es hashing
+
+Qué se protege y por qué
+
+Resultado:
+👉 Entendés seguridad mínima.
+
+Día 14 — Repaso
+
+Objetivo: consolidar usuarios + DB.
+
+Resultado:
+👉 Tenés claro el flujo completo de usuario.
+
+Semana 3 — Autenticación real y permisos
+Día 15 — JWT (concepto)
+
+Objetivo: entender el token.
+
+Qué es
+
+Para qué sirve
+
+Qué contiene
+
+Resultado:
+👉 Sabés qué es ese “string raro”.
+
+Día 16 — Flujo con token
+
+Objetivo: usarlo correctamente.
+
+Generar token
+
+Enviarlo
+
+Validarlo
+
+Resultado:
+👉 Acceso protegido funcionando.
+
+Día 17 — Middleware
+
+Objetivo: no repetir lógica.
+
+Qué es
+
+Para qué sirve
+
+Resultado:
+👉 Código más limpio.
+
+Día 18 — Roles
+
+Objetivo: permisos.
+
+Qué es un rol
+
+Qué puede hacer cada uno
+
+Resultado:
+👉 Control de acceso real.
+
+Día 19 — CRUD protegido
+
+Objetivo: unir todo.
+
+Resultado:
+👉 Solo usuarios válidos acceden.
+
+Día 20 — Manejo de errores
+
+Objetivo: responder bien cuando algo falla.
+
+Resultado:
+👉 API profesional.
+
+Día 21 — Repaso grande
+
+Objetivo: visión completa.
+
+Resultado:
+👉 Entendés el backend entero.
+
+Semana 4 — Calidad y cierre
+Día 22 — Arquitectura
+
+Objetivo: orden.
+
+Resultado:
+👉 Código mantenible.
+
+Día 23 — Testing (concepto)
+
+Objetivo: entender por qué probar.
+
+Resultado:
+👉 Tests básicos.
+
+Día 24 — Logging
+
+Objetivo: ver errores sin romper todo.
+
+Día 25 — README
+
+Objetivo: explicar tu proyecto.
+
+Día 26 — Revisión general
+
+Objetivo: pulir.
+
+Día 27 — Deploy (opcional)
+
+Objetivo: subirlo a internet.
+
+Día 28 — Cierre
+
+Objetivo: poder decir:
+
+“Sé cómo funciona un backend.”

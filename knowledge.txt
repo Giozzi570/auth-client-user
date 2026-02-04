@@ -1,0 +1,99 @@
+¿Que es un cliente y un servidor?
+
+-El cliente es un usuario el cual pide una petición al servidor donde el servidor devuelve una acción dependiendo de lo que desea que se haga el servidor 
+
+cliente ==> servidor ==> cliente
+
+¿Qué es HTTP?
+
+HTTP(hypertext transfer protocol) es un protocolo que define una serie de parametros para la comunicación de datos entre un cliente y un servidor 
+
+
+
+¿Como funciona?
+- Petición (Request): El cliente pide una peticion al servidor
+---método (GET, POST, etc.)
+---headers
+---body (datos)
+---ruta
+
+- Respuesta (Response): El servidor devuelve un código de estado(ej. 200 OK, 404 Not Found)
+--- status code
+--- headers
+--- body (datos)
+
+------Metodos mas normales-----
+
+- GET: Solicita datos (ej. abrir una página).
+- POST: Envía datos al servidor (ej. formulario).
+- PUT: Actualiza un recurso existente.
+- DELETE: Elimina un recurso.
+- HEAD: Igual que GET, pero solo devuelve cabeceras.
+
+CODIGOS DE ESTADO 
+
+
+- 200 OK: Todo correcto.
+- 301 Moved Permanently: Redirección permanente.
+- 404 Not Found: Recurso no encontrado.
+- 500 Internal Server Error: Error del servidor
+
+Stateless
+
+Sin estado, basicamente cada que vez que se envia una peticion es independiente y no tiene memoria de la anterior
+
+
+¿Que es una API(Application programming interface)?
+
+- Una API es basicamente una capa de abstraccion para la conexion entre softwares y que no se tenga que entender todo por dentro 
+ 
+¿Que es REST?
+
+- Recursos: Todo se trata como un recurso (ejemplo: un “usuario” o un “pedido”).
+- Identificación por URL: Cada recurso tiene una dirección única (ejemplo: https://api.tienda.com/productos/15).
+- Operaciones estándar: Se usan los métodos HTTP:
+- GET → leer información
+- POST → crear un recurso
+- PUT → actualizar un recurso
+- DELETE → eliminar un recurso
+- Stateless (sin estado): Cada petición se procesa de forma independiente, sin recordar información de la anterior.
+- Formato flexible: Los datos suelen transmitirse en JSON o XML, aunque JSON es el más común hoy.
+
+
+¿Que es JSON? 
+
+JSON es un formato ligero de intercambio de datos que es fácil de leer y escribir para los humanos, y fácil de parsear y generar para las máquinas. Se utiliza comúnmente en aplicaciones web para enviar datos entre un cliente y un servidor.
+
+
+La diferencia entre GET y POST es que uno crea y el otro lee datos
+
+
+404 → no existe la ruta
+
+405 → existe la ruta, pero no ese método
+
+
+Registro es una fila de un usuario, las columnas son los atributos del usuario y la tabla es el conjunto de usuarios
+
+Datos mal → 400
+
+No existe → 404
+
+Se creó → 201
+
+Todo bien → 200
+
+Duplicado → 409
+
+Explota algo raro → 500
+
+
+Caso	        Código correcto
+Token faltante	401
+Token inválido	401
+Token expirado	401
+Sin permisos	403
+
+UPDATE tabla
+SET columna = valor
+WHERE condición;
